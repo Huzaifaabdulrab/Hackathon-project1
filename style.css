@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background:linear-gradient(#f3f4f6 , #333);
     color: #333;
 }
 
@@ -12,9 +11,8 @@ main {
     padding: 40px 20px;
 }
 
-.detail {
-    background-color: #fff;
-    border: 2px solid black;
+.detail  {
+    background-color: #e3f5e0;
     max-width: 800px;
     width: 100%;
     border-radius: 12px;
@@ -25,7 +23,9 @@ main {
     grid-template-columns: 1fr;
     gap: 20px;
 }
-
+.detail ul li{
+    list-style:circle;
+}
 .profile {
     text-align: center;
     border-bottom: 2px solid #e2e8f0;
@@ -49,9 +49,8 @@ main {
     text-decoration: underline;
 }
 
-.skills, .interest {
+.skills, .interest , .personalInfo{
     background-color: #f7fafc;
-    border:1px solid #1a202c;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
